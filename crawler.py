@@ -31,10 +31,10 @@ def crawler(keyword):
     return foodInfos
     
 # for test
-datas = crawler('치킨')
+# datas = crawler('치킨')
 
-with open('test.txt', 'w') as f:
-    f.write(str(datas))
-    f.write(str(len(datas)))
+# with open('test.txt', 'w') as f:
+#     f.write(str(datas))
+#     f.write(str(len(datas)))
 
-print('done')
+# print('done')
